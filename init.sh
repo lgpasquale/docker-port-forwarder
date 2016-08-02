@@ -10,4 +10,4 @@ for redirection in $@; do
 done
 iptables -t nat -A POSTROUTING -j MASQUERADE
 
-bash
+tail -f /dev/null
